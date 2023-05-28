@@ -11,6 +11,6 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/HuRe/bin:$PATH"
+ENV PATH="/home/pict/bin:$PATH"
 
-CMD ["python3","-m","HuRe"]
+CMD ["python3","-m","pict"]
