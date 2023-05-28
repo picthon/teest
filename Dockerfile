@@ -3,7 +3,7 @@ FROM picthon/pict:slim-buster
 #clonning repo 
 RUN git clone https://github.com/picthon/pict.git /root/jepthon
 #working directory 
-WORKDIR /root/jepthon
+WORKDIR /root/pict
 
 # Install requirements
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
