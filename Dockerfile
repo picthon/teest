@@ -1,7 +1,7 @@
 FROM picthon/pict:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/picthon/pict.git /root/jepthon
+RUN git clone https://github.com/picthon/pict.git /root/pict
 #working directory 
 WORKDIR /root/pict
 
