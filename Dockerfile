@@ -1,4 +1,4 @@
-FROM jepthoniq/jepthon:slim-buster
+FROM picthon/pict:slim-buster
 
 #clonning repo 
 RUN git clone https://github.com/picthon/pict.git /root/jepthon
